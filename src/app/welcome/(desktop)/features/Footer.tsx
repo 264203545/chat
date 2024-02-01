@@ -25,7 +25,7 @@ const Footer = memo(() => {
         />
         <ActionIcon
           icon={Book}
-          onClick={() => window.open(WIKI, '__blank')}
+          onClick={() => window.open(CHIEH， '__blank')}
           size={'site'}
           title={'CHIEH'}
         />
