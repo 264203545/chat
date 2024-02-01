@@ -37,8 +37,8 @@ const Hero = memo<{ mobile?: boolean; width: number }>(({ mobile, width }) => {
         ) : (
           <img
             alt="Logo"
-            src="https://chieh-1301921315.cos.na-siliconvalley.myqcloud.com/blog%E7%8C%AB%E5%92%AA%E5%A4%B4%E5%83%8F.png"
-            style={{ height: '20%', width: '20%' }}
+            src="https://chieh-1301921315.cos.na-siliconvalley.myqcloud.com/blogchat-gpt-logo.png"
+            style={{ height: '50%', width: '50%' }}
           />
         )}
       </Flexbox>
