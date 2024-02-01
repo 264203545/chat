@@ -93,7 +93,7 @@ const BottomActions = memo<BottomActionProps>(({ tab, setTab }) => {
       icon: <Icon icon={Book} />,
       key: 'CHIEH',
       label: 'CHIEH',
-      onClick: () => window.open(CHIEH， '__blank'),
+      onClick: () => window.open(CHIEH, '__blank'),
     },
     {
       icon: <Icon icon={Heart} />,
