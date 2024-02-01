@@ -13,8 +13,8 @@ export const DISCORD = 'https://discord.com/';
 
 export const PLUGINS_INDEX_URL = 'https://chat-plugins.lobehub.com';
 
-export const AGENTS_INDEX_GITHUB = 'https://github.com/lobehub/lobe-chat-agents';
-export const AGENTS_INDEX_GITHUB_ISSUE = urlJoin(AGENTS_INDEX_GITHUB, 'issues/new');
+export const AGENTS_INDEX_GITHUB = 'https://chieh.pro/2023/01/01/%E5%8F%8D%E9%A6%88/';
+export const AGENTS_INDEX_GITHUB_ISSUE = 'https://chieh.pro/2023/01/01/%E5%8F%8D%E9%A6%88/';
 
 export const SESSION_CHAT_URL = (id: string = INBOX_SESSION_ID, mobile?: boolean) =>
   mobile ? `/chat/mobile?session=${id}` : `/chat?session=${id}`;
