@@ -32,7 +32,15 @@ const Hero = memo<{ mobile?: boolean; width: number }>(({ mobile, width }) => {
           position: 'relative',
         }}
       >
-        {mobile ? <LogoThree size={size.logo} /> : <img src="https://chieh-1301921315.cos.na-siliconvalley.myqcloud.com/blog%E7%8C%AB%E5%92%AA%E5%A4%B4%E5%83%8F.png" alt="Logo" style={{ height: '100%', width: '100%' }} />}
+        {mobile ? (
+          <LogoThree size={size.logo} />
+        ) : (
+          <img
+            alt="Logo"
+            src="https://chieh-1301921315.cos.na-siliconvalley.myqcloud.com/blog%E7%8C%AB%E5%92%AA%E5%A4%B4%E5%83%8F.png"
+            style={{ height: '100%', width: '100%' }}
+          />
+        )}
       </Flexbox>
       <div className={styles.title} style={{ fontSize: size.title }}>
         <strong style={mobile ? { fontSize: '1.2em' } : {}}>LobeChat</strong>
