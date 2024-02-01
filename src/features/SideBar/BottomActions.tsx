@@ -16,7 +16,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { ABOUT, CHANGELOG, DISCORD, FEEDBACK, GITHUB, Chieh } from '@/const/url';
+import { ABOUT, CHANGELOG, DISCORD, FEEDBACK, GITHUB, CHIEH } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 import { GlobalStore, useGlobalStore } from '@/store/global';
