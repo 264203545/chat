@@ -38,12 +38,12 @@ const Hero = memo<{ mobile?: boolean; width: number }>(({ mobile, width }) => {
           <img
             alt="Logo"
             src="https://chieh-1301921315.cos.na-siliconvalley.myqcloud.com/blog%E7%8C%AB%E5%92%AA%E5%A4%B4%E5%83%8F.png"
-            style={{ height: '100%', width: '100%' }}
+            style={{ height: '20%', width: '20%' }}
           />
         )}
       </Flexbox>
       <div className={styles.title} style={{ fontSize: size.title }}>
-        <strong style={mobile ? { fontSize: '1.2em' } : {}}>LobeChat</strong>
+        <strong style={mobile ? { fontSize: '1.2em' } : {}}>ChiehChat</strong>
         {mobile ? <br /> : ' '}
         {t('slogan.title')}
       </div>
