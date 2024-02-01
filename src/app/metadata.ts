@@ -4,7 +4,7 @@ import { getServerConfig } from '@/config/server';
 
 import pkg from '../../package.json';
 
-const title = 'LobeChat';
+const title = 'ChiehChat';
 const { description, homepage } = pkg;
 
 const { METADATA_BASE_URL = 'https://chat-preview.lobehub.com/' } = getServerConfig();
@@ -49,11 +49,11 @@ const metadata: Metadata = {
 
   title: {
     default: title,
-    template: '%s · LobeChat',
+    template: '%s · ChiehChat',
   },
   twitter: {
     card: 'summary_large_image',
-    creator: '@lobehub',
+    creator: '@Chieh',
     description,
     images: [
       'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/og-960x540.png',
