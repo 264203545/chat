@@ -5,8 +5,8 @@ import { INBOX_SESSION_ID } from './session';
 
 export const GITHUB = pkg.homepage;
 export const CHANGELOG = 'https://chieh.pro/2023/01/01/%E5%8F%8D%E9%A6%88/';
-export const WIKI = 'https://chieh.pro';
-export const WIKI_PLUGIN_GUIDE = 'https://chieh.pro/2023/01/01/%E5%8F%8D%E9%A6%88/';
+export const CHIEH = 'https://chieh.pro';
+export const CHIEH_PLUGIN_GUIDE = 'https://chieh.pro/2023/01/01/%E5%8F%8D%E9%A6%88/';
 export const ABOUT = pkg.homepage;
 export const FEEDBACK = pkg.bugs.url;
 export const DISCORD = 'https://discord.com/';
