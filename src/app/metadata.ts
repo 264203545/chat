@@ -7,7 +7,7 @@ import pkg from '../../package.json';
 const title = 'ChiehChat';
 const { description, homepage } = pkg;
 
-const { METADATA_BASE_URL = 'https://chat-preview.lobehub.com/' } = getServerConfig();
+const { METADATA_BASE_URL = 'https://gpt.chieh.pro/' } = getServerConfig();
 
 const metadata: Metadata = {
   appleWebApp: {
