@@ -6,6 +6,7 @@ import market from './market';
 import migration from './migration';
 import plugin from './plugin';
 import setting from './setting';
+import welcome from './welcome';
 
 const resources = {
   chat,
@@ -16,6 +17,7 @@ const resources = {
   plugin,
   setting,
   tool,
+  welcome,
 } as const;
 
 export default resources;
