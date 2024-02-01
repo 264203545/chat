@@ -6,7 +6,7 @@ import { memo, useEffect, useState } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { WIKI_PLUGIN_GUIDE } from '@/const/url';
+import { CHIEH_PLUGIN_GUIDE } from '@/const/url';
 import { LobeToolCustomPlugin } from '@/types/tool/plugin';
 
 import PluginPreview from './PluginPreview';
@@ -123,7 +123,7 @@ const DevModal = memo<DevModalProps>(
                 <Trans i18nKey={'dev.modalDesc'} ns={'plugin'}>
                   添加自定义插件后，可用于插件开发验证，也可直接在会话中使用。插件开发文档请参考：
                   <a
-                    href={WIKI_PLUGIN_GUIDE}
+                    href={CHIEH_PLUGIN_GUIDE}
                     rel="noreferrer"
                     style={{ paddingInline: 8 }}
                     target={'_blank'}
