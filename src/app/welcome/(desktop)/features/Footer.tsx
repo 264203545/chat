@@ -6,7 +6,7 @@ import { Book, Github } from 'lucide-react';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
-import { DISCORD, GITHUB, WIKI } from '@/const/url';
+import { DISCORD, GITHUB, CHIEH } from '@/const/url';
 
 const Footer = memo(() => {
   const theme = useTheme();
@@ -27,7 +27,7 @@ const Footer = memo(() => {
           icon={Book}
           onClick={() => window.open(WIKI, '__blank')}
           size={'site'}
-          title={'Wiki'}
+          title={'CHIEH'}
         />
         <ActionIcon
           icon={Github}
